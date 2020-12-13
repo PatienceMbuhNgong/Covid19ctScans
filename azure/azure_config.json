@@ -1,0 +1,26 @@
+{
+    "azureml_user":
+    {
+        "subscription_id": "<INSERT-YOUR-AZURE-SUBSCRIPTION-ID>",
+        "resource_group": "<INSERT-YOUR-AZURE-RESOURCE-GROUP>",
+        "workspace_name": "<CREATE-AZUREML-WORKSPACE-AND-INSERT-NAME>",
+        "telemetry_opt_out": true
+    },
+    "aml_compute":
+    {
+        "ct_name":"clara-covid19",
+        "exp_name":"clara-covid19",
+        "vm_name":"Standard_NC12s_v3",
+        "admin_name": "admin",
+        "min_nodes":0,
+        "max_nodes":1,
+        "vm_priority": "dedicated",
+        "idle_seconds_before_scaledown":300,
+        "python_interpreter":"/usr/bin/python",
+        "conda_packages":["matplotlib","jupyterlab"],
+        "environment_name":"nvidia-clara-covid19",
+        "docker_enabled":true,
+        "user_managed_dependencies":true,
+        "jupyter_port":9000
+    }
+}
