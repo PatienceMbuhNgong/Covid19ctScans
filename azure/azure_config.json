@@ -1,9 +1,9 @@
 {
     "azureml_user":
     {
-        "subscription_id": "<INSERT-YOUR-AZURE-SUBSCRIPTION-ID>",
-        "resource_group": "<INSERT-YOUR-AZURE-RESOURCE-GROUP>",
-        "workspace_name": "<CREATE-AZUREML-WORKSPACE-AND-INSERT-NAME>",
+        "subscription_id": "4520a1f1-4325-41a2-9c4f-69ebe38c6708",
+        "resource_group": "DefaultResourceGroup-EUS",
+        "workspace_name": "covid19ctscan",
         "telemetry_opt_out": true
     },
     "aml_compute":
